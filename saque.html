@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caixa Feliz</title>
+</head>
+    <style>
+        .letra1 { color: rgb(221, 97, 97);}
+        .letra2 { color:rgb(214, 212, 130)}
+        .letra3 { color:rgb(86, 139, 195)}
+        .letra4 { color: rgb(131, 213, 131);}
+        .letra5 { color:rgb(86, 139, 195)}
+        .letra6 { color: rgb(221, 97, 97);}
+        .letra7 { color: pink;}
+        .letra8 { color:rgb(214, 212, 130)}
+        .letra9 { color: rgb(131, 213, 131);}
+        .letra10 {  color: pink;}
+     
+            
+        .fundo {
+            background-color: rgb(80, 37, 37);
+            padding-top: 32px;
+            padding-left: 16px;
+         padding-right: 16px;
+        }
+       
+         .outroFundo {
+            background-color: rgb(80, 37, 37);
+            padding-top: 900px;
+            padding-left: 16px;
+            padding-right: 16px;
+         } 
+         .cabeca {
+            text-align: center;
+            font-size: 30px;
+
+         }
+    </style>
+<body class="cabeca">
+    <div class="fundo">
+    <strong>
+    <h1 class="letra1" style="display: inline;" color="green" >C</h1>
+    <h1 class="letra2" style="display: inline;">A</h1>
+    <h1 class="letra3" style="display: inline;">I</h1>
+    <h1 class="letra4"style="display: inline;">X</h1>
+    <h1 class="letra5" style="display: inline;">A</h1>
+   
+    <h1 class="letra6" style="display: inline;">F</h1>
+    <h1 class="letra7" style="display: inline;">E</h1>
+    <h1 class="letra8" style="display: inline;">L</h1>
+    <h1 class="letra9" style="display: inline;">I</h1>
+    <h1 class="letra10" style="display: inline;">Z</h1>
+    <form action="">
+        <label for="quantia">Digite a quantia a ser sacada</label>
+        <input type="number" id="money_rain" name="saque">
+        <button type="button" id="botao_de_saque">SACAR</button>
+    
+    </form>
+    <script>
+    elementoP = document.getElementById('botao_de_saque')
+    elementoP.addEventListener('click', ()=>{
+    let dinn = document.getElementById('money_rain');
+    let dinn2 = dinn.value;
+    //document.write(dinn2)
+    document.write("Sacando: ",dinn2, " reais")
+    
+})
+
+    </script>
+</strong>
+
+ 
+
+</div>
+</div>
+<main class="cabecalho">
+
+</main>
+<div class="outroFundo">
+
+</div>
+
+</body>
+</html>
